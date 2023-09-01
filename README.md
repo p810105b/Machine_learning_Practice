@@ -2,8 +2,8 @@
 
 ## Simple regression
 
-#### 1. Create the function 𝑡𝑎𝑟𝑔𝑒𝑡 = 𝐴𝑥2 + 𝐵𝑥 + 𝐶 and 𝑝𝑟𝑒𝑑𝑖𝑐𝑡 = 𝐴′𝑥2 + 𝐵′𝑥 + 𝐶′.
-#### 2. Loss function = 𝑀𝑆𝐸𝐿𝑜𝑠𝑠 = 0.5 ∗ (𝑡𝑎𝑟𝑔𝑒𝑡 − 𝑝𝑟𝑒𝑑𝑖𝑐𝑡)2
+#### 1. Create the function 𝑡𝑎𝑟𝑔𝑒𝑡 = 𝐴𝑥<sup>2</sup> + 𝐵𝑥 + 𝐶 and 𝑝𝑟𝑒𝑑𝑖𝑐𝑡 = 𝐴′𝑥<sup>2</sup> + 𝐵′𝑥 + 𝐶′.
+#### 2. Loss function = 𝑀𝑆𝐸𝐿𝑜𝑠𝑠 = 0.5 ∗ (𝑡𝑎𝑟𝑔𝑒𝑡 − 𝑝𝑟𝑒𝑑𝑖𝑐𝑡)<sup>2</sup>
 #### 3. Base on PyTorch API, let the predict close to target (regression).
 
 ## LeNet-5 with MNIST
