@@ -1,16 +1,28 @@
 # Basic_Machine_learning
 
-## Simple regression
+## Simple Regression
 
-#### 1. Create the function 𝑡𝑎𝑟𝑔𝑒𝑡 = 𝐴𝑥<sup>2</sup> + 𝐵𝑥 + 𝐶 and 𝑝𝑟𝑒𝑑𝑖𝑐𝑡 = 𝐴′𝑥<sup>2</sup> + 𝐵′𝑥 + 𝐶′.
-#### 2. Loss function = 𝑀𝑆𝐸𝐿𝑜𝑠𝑠 = 0.5 ∗ (𝑡𝑎𝑟𝑔𝑒𝑡 − 𝑝𝑟𝑒𝑑𝑖𝑐𝑡)<sup>2</sup>
-#### 3. Base on PyTorch API, let the predict close to target (regression).
+This section focuses on implementing a simple regression model using quadratic equations and optimizing it with PyTorch.
+
+- **Function Creation:** Define the target function as `target = Ax² + Bx + C` and the prediction function as `predict = A'x² + B'x + C'`.
+- **Loss Function:** Implement the Mean Squared Error (MSE) Loss as `MSELoss = 0.5 * (target - predict)²`.
+- **Regression with PyTorch:** Utilize the PyTorch API to minimize the loss and make the prediction as close as possible to the target.
 
 ## LeNet-5 with MNIST
-#### 1. Create neural network : LeNet-5 with PyTorch API.
-#### 2. Training the NN with MNIST Dataset.
-#### 3. Testing training result.
 
-## Custom dataset
-#### 1. Access the custom dataset with PyTorch API.
-#### 2. Train the VGG-16 or ResNet18 with the dataset
+In this section, we implement and train the LeNet-5 neural network using the MNIST dataset.
+
+- **Neural Network Creation:** Construct the LeNet-5 architecture using PyTorch API.
+- **Training:** Train the network using the MNIST dataset.
+- **Testing:** Evaluate the training results and model performance.
+
+## Custom Dataset
+
+Working with a custom dataset, training models like VGG-16 or ResNet18.
+
+- **Dataset Access:** Load and preprocess the custom dataset using PyTorch API.
+- **Model Training:** Train models like VGG-16 or ResNet18 on the custom dataset.
+
+---
+
+Each section provides practical insights into the basics of machine learning and deep learning, leveraging PyTorch framework.
